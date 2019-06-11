@@ -1,19 +1,15 @@
-class Alumno:
-    def __init__(self,nombre,nota):
-        self.nombre = nombre
-        self.nota = nota
-    def imprimir(self):
-        print("Alumno: ",self.nombre)
-        print("Nota: ",self.nota)
-        print("")
-    
-    def resultado(self):
-        if self.nota<5:
-            print("El alumno ha reprobado")
-        else:
-            print("El alumno ha aprobado")
-
-alumno1=Alumno()
-
-alumno1.imprimir()
-alumno1.resultado()
+class Gelatina:
+    def __init__(self,tam,color,sabor): #
+        self.tam=tam
+        self.color=color
+        self.sabor=sabor
+    def desplegar(self):
+        print (self.tam)
+        print (self.color)
+        print (self.sabor)
+gel1=Gelatina("chico","rojo","fresa")
+gel2=Gelatina("mediana","verde","manzana")
+gel3=Gelatina("grande","amarillo","plátano")
+gel1.desplegar()
+gel2.desplegar()
+gel3.desplegar()
