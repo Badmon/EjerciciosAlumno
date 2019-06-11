@@ -7,7 +7,7 @@ class Mamiferos:
         #print (self.codigo)
         #print (self.nombres,self.apellidos)
 
-        print ("El codigo de:",self.nombres,self.apellidos,"es:"+self.codigo)
+        print ("El codigo de:",self.nombres,self.apellidos,"es:",self.codigo)
 
 
 alumno1=Mamiferos("201701","Juan","León")
