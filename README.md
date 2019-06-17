@@ -1,2 +1,1 @@
-# EjerciciosAlumno
-# EjerciciosAlumno
+Learning exercises basics in python 3.7
