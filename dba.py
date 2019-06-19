@@ -29,7 +29,7 @@ conn.commit()
 conn.close()
 
 
-#PARA CORREGIR
+#PARA CORREGIR ESTABA TRATANDO DE INGRESAR LOS DATOS Y QUE SE REGISTREN POR CONSOLA
 '''
 if a == 1:
     #print("id")
