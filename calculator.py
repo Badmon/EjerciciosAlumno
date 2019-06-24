@@ -31,4 +31,5 @@ elif a == '5':
     print(num1, "^", num2,"=",Potencia(num1,num2))
 else:
     print("Entrada invalidad")
+    print("")
     
